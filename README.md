@@ -51,14 +51,3 @@ LLM-supported decision cards covering predictive maintenance, thermal comfort, a
 
 ![Prescriptive View](figs/pres_view.png)
 
-## Performance Summary
-
-Empirical benchmarking on a local server shows computational demands scale with analytics complexity:
-
-| Layer | CPU Utilization | Memory | Energy |
-|-------|----------------|--------|--------|
-| Descriptive | ~3.7% | ~10% | ~17 W |
-| Diagnostic | moderate | moderate | moderate |
-| Predictive | higher | higher | higher |
-| Prescriptive | ~51% | ~40% | ~55 W |
-
